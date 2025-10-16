@@ -107,6 +107,11 @@ public class CityListTest {
         //Check if the city is in the list
         assertFalse(cityList.hasCity(city));
 
+        assertThrows(IllegalArgumentException.class, () -> {
+            cityList.delete(city);
+        });
+
+
     }
 
 

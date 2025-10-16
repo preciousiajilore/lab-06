@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"com.example.ajilore.listycity","l":"City"},{"p":"com.example.ajilore.listycity","l":"CityList"},{"p":"com.example.ajilore.listycity","l":"MainActivity"}];updateSearchResults();

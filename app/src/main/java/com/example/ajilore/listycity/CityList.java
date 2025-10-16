@@ -32,4 +32,28 @@ public class CityList {
         Collections.sort(list);
         return list;
     }
+
+    /**
+     * When given a city, return whether or not it belongs in the list
+     * @param city
+     *      The city to check
+     * @return
+     *      Whether or not the city belongs in the list
+     */
+     public boolean hasCity(City city){
+        return cities.contains(city);
+    }
+
+    /**
+     * Check if a city is present in the list. If it does then remove it from the list
+     * if not then throw an exception
+     * @param city
+     *      The city to remove
+     */
+    public void delete(City city){
+        if(!cities.contains(city)){
+            throw new IllegalArgumentException();
+        }
+        cities.remove(city);
+    }
 }
